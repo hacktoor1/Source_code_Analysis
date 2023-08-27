@@ -40,7 +40,7 @@ if( array_key_exists( 'show', $_POST ) && $_POST[ 'show' ] != NULL )
 require 'function.php';
 if( array_key_exists( 'show', $_POST ) && $_POST[ 'show' ] != NULL ){
         $first_name=check($_POST['first_name']);
-        echo '<pre>hello'.$first_name."</pre>";
+        echo "<pre>hello".$first_name."</pre>";
 }
 ?>
 //======>HTML_code
