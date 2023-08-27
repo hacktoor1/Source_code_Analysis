@@ -14,7 +14,7 @@
 //====>PHP_code_first
 if( array_key_exists( 'show', $_POST ) && $_POST[ 'show' ] != NULL )
 	$first_name=$_POST['first_name'];
-	echo '<pre>hello'.$first_name;
+	echo "<pre>hello".$first_name."</pre>";
 }
 
 ?>
