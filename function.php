@@ -1,17 +1,17 @@
 <?php
 /*
 	==================================================
-	== remove unwated spaces ==> trim()		==
+	== remove unwanted spaces ==> trim()		==
 	== remove html tags      ==> strip_tags()	==
-	== deactive html tags    ==> htmlspacialchars()	==
-	== remove slaches        ==> stripcslaches()	==
+	== deactive html tags    ==> htmlspecialchars()	==
+	== remove slashes        ==> stripcslashes()	==
 	==================================================
 */
 	function check($var){
 	$var=trim($var);
 	$var=strip_tags($var);
-	$var=htmlspacialchars($var);
-	$var=stripcslaches($var);
+	$var=htmlspecialchars($var);
+	$var=stripcslashes($var);
 	return $var;	
 	}
 

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Password</title>
+</head>
+<body>
+    <h2>Change Password</h2>
+    <form action="csrf.php" method="GET">
+        <label for="password_new">New Password:</label>
+        <input type="password" name="password_new" id="password_new" required><br>
+
+        <label for="password_conf">Confirm Password:</label>
+        <input type="password" name="password_conf" id="password_conf" required><br>
+
+        <input type="submit" name="change_password" value="Change Password">
+    </form>
+</body>
+</html>
