@@ -4,7 +4,7 @@ new list of vulnerabilities.
 ====================================
 = OWASP TOP 10 web vulnerabilities =
 ====================================
-01. Broken Access Control
+01. Broken Access Control.
 02. Cryptographic failure
 03. Injection
 04. insecure design
