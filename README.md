@@ -1,6 +1,6 @@
 # PHP_Security_code
 This project is a personal learning, so you will find errors or disorganization ;)
-new list of vulnerabilities
+new list of vulnerabilities.
 ====================================
 = OWASP TOP 10 web vulnerabilities =
 ====================================
