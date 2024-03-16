@@ -1,4 +1,4 @@
-                                                <!-- |BY Hacktor  -->
+                                        <!-- |BY Hacktor  https://www.linkedin.com/in/hacktor/  -->
 # PHP_Security_code
 
 <!-- This project is a personal learning, so you will find errors or disorganization ;) -->
