@@ -7,12 +7,4 @@
 	== remove slashes        ==> stripcslashes()	==
 	==================================================
 */
-	function check($var){
-	$var=trim($var);
-	$var=strip_tags($var);
-	$var=htmlspecialchars($var);
-	$var=stripcslashes($var);
-	return $var;	
-	}
-
-?>
+function check($var){$var=trim($var);$var=strip_tags($var);$var=htmlspecialchars($var);$var=stripcslashes($var);return $var;}function replace($rep){$x = str_replace('<script>',' ', $rep);return $x;}?>

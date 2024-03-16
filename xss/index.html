@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XSS Example</title>
+</head>
+<body>
+    <script>
+        // Retrieve user input from query parameters
+        var userInput = window.location.search.substr(1).split('=')[1];
+
+        // Output user input without proper sanitization
+        document.write("User input: " + userInput);
+    </script>
+</body>
+</html>
