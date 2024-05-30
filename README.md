@@ -3,9 +3,9 @@
 
 <!-- This project is a personal learning, so you will find errors or disorganization ;) -->
 <!-- new list of vulnerabilities. -->
-===================================
+
                         <!-OWASP TOP 10 web vulnerabilities -->
-====================================
+<!-- ==================================== -->
 01. Broken Access Control.
 02. Cryptographic failure
 03. Injection
