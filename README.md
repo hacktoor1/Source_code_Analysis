@@ -20,14 +20,14 @@
                                                 <!-- EWPTXv2 -->
 1.  => XSS 
 2.  => CSRF
-3.  =>
-4.  =>
-5.  =>
-6.  =>
-7.  =>
-8.  =>
-9.  =>
-10. =>
+3.  => CORS
+4.  => SSTI
+5.  => JSONP
+6.  => Open-Redirect
+7.  => SQL Injection
+8.  => SSRF
+9.  => File Upload
+10. => Clickjaking 
 11. =>
-12. =>
-13. =>
+12. => 
+13. => 
